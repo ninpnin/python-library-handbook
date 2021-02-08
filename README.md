@@ -8,6 +8,10 @@ Here we go!
 
 Always-invertible dicts / bijections as a data generic structure. [Github](https://github.com/jab/bidict9) and [Pypi](https://pypi.org/project/bidict/)
 
+## LXML
+
+Powerful XML library.
+
 ## Networkx
 
 [Networkx](https://networkx.org/) is a great library for data in graph/network form. 
