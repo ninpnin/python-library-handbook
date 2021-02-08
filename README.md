@@ -1,4 +1,5 @@
-# python-library-handbook
+# Python Library Handbook
+
 A comprehensive list of Good Python Libraries™ according to me.
 
 Here we go!
