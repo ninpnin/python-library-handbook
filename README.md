@@ -28,7 +28,7 @@ Tables and stuff.
 
 Nice and simple progress bars. Progressbar https://pypi.org/project/progressbar2/)
 
-```
+```py
 import progressbar
 for item in progressbar.progressbar(range(10)):
   pass
@@ -39,7 +39,7 @@ for item in progressbar.progressbar(range(10)):
 Quick and pretty visualizations of data in pandas dataframe format.
 
 
-```
+```py
 import seaborn as sns
 from matplotlib import pyplot as plt
 
