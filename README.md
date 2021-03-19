@@ -33,3 +33,23 @@ import progressbar
 for item in progressbar.progressbar(range(10)):
   pass
 ```
+
+## Seaborn
+
+Quick and pretty visualizations of data in pandas dataframe format.
+
+
+```
+import seaborn as sns
+
+example_dataframe = pd.read_csv("example_data.csv")
+
+sns.set_theme()
+sns.relplot(
+    data=example_dataframe,
+    x="date", y="quantity_in_question", kind="line",
+    facet_kws=dict(sharex=False),
+)
+
+plt.show()
+```
