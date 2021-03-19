@@ -41,6 +41,7 @@ Quick and pretty visualizations of data in pandas dataframe format.
 
 ```
 import seaborn as sns
+from matplotlib import pyplot as plt
 
 example_dataframe = pd.read_csv("example_data.csv")
 
