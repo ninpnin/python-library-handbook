@@ -18,6 +18,12 @@ args = parser.parse_args()
 
 This is standard but a nice-to-have clipboard so that you don't need to learn all this by heart.
 
+Use the following line to print out the docstring at the start of the file when you run ```python script.py --help```
+
+```python
+parser = argparse.ArgumentParser(description=__doc__)
+```
+
 ## Bidict
 
 Always-invertible dicts / bijections as a data generic structure. [Github](https://github.com/jab/bidict9) and [Pypi](https://pypi.org/project/bidict/)
