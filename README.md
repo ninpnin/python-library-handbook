@@ -47,7 +47,7 @@ Powerful XML library.
 
 [Networkx](https://networkx.org/) is a great library for data in graph/network form. 
 
-```
+```python
 g = nx.Graph()
 g.add_edge("dog", "cat")
 
