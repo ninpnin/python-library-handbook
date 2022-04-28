@@ -64,7 +64,7 @@ Needs no explanation.
 
 Tables and stuff.
 
-# Polars
+## Polars
 
 Tables and stuff, with a Rust backend. Feels more idiomatic and functional than Pandas.
 
