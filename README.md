@@ -64,6 +64,28 @@ Needs no explanation.
 
 Tables and stuff.
 
+# Polars
+
+Tables and stuff, with a Rust backend. Feels more idiomatic and functional than Pandas.
+
+```py
+import polars as pl
+
+df = pl.read_csv("data.csv")
+
+# Drop rows where name is null
+df = df.drop_nulls("name")
+
+# Fill 'number' nulls with 
+df = df.select([
+  "name",
+  pl.col("number").fill_null(-123),
+  ])
+
+# Save to file
+df.to_csv("polars.csv")
+```
+
 ## Progressbar2
 
 Nice and simple progress bars. Progressbar https://pypi.org/project/progressbar2/)
